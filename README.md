@@ -23,9 +23,8 @@ Complete the unfinished functions in `starter.py`. The template loads and valida
 | `data/pipes.csv` | 689 directed water pipes | `source,target,capacity_per_minute` |
 | `data/checkpoints.csv` | 12 checkpoints, in arbitrary order | `file_order,station_id` |
 
-The networks share station IDs, but **their edges and weights mean different things**. `SOURCE` and `OUTLET` are auxiliary hydraulic vertices, not suspects. Every facility and measurement is synthetic.
 
-## Investigation: six clues
+## Investigation clues:
 
 Apply the clues **in order**. After each clue, print the IDs of all remaining candidates. Do not assume a clue identifies a single station on its own.
 
