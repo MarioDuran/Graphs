@@ -39,12 +39,3 @@ Apply the clues **in order**. After each clue, print the IDs of all remaining ca
 5. **Traveling Salesperson Problem — Inspection tour.** Starting at `S000`, visit each of the **12 stations** in `checkpoints.csv` **exactly once**, then return to `S000`. Use shortest-path road travel times from Step 2 between tour stops. Find the **exact shortest tour** (not a heuristic). If several tours tie, choose the **lexicographically smallest checkpoint-ID sequence** after the fixed start. The **sixth checkpoint visited** is **27–47 minutes** from Ultron's station, inclusive. A dynamic-programming solution (Held–Karp) is acceptable.
 
 6. **Maximum flow — Water signature.** For each remaining candidate, compute the maximum flow through `data/pipes.csv` **from that station to `OUTLET`**. Treat the candidate as an unlimited injection point; every directed pipe still has its given capacity. Ultron's station can deliver **exactly 60 units per minute**. You may implement Ford–Fulkerson or Edmonds–Karp; account for residual edges.
-
-## What to submit
-
-- Your Python implementation of **Dijkstra, Floyd–Warshall, Prim, Kruskal, graph coloring, an exact Traveling Salesperson solver, and a maximum-flow algorithm**. Do not replace them with library solvers.
-- A list of remaining candidate station IDs **after each clue**, followed by the **single final station ID**.
-- The minimum spanning tree (edges and total cable cost), the frequency assignment with its minimum-color justification, the optimal inspection tour and travel time, and maximum flow values for the final suspects.
-- A brief explanation of correctness and **time/space complexity** for each implementation.
-
-A final answer without reproducible calculations is insufficient. **Do not include an answer key or precomputed suspect lists in your submitted code.**
