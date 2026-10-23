@@ -160,7 +160,7 @@ def investigate(case: CaseData) -> None:
 
 def main() -> None:
     case = load_case()
-    print("Operation Sonora Water — data loaded")
+    print("Operation Ultron Loaded")
     print(f"Stations:       {len(case.stations)}")
     print(f"Roads:          {len(case.roads)} (undirected)")
     print(f"Radio conflicts:{len(case.conflict_edges):>5} (undirected)")
