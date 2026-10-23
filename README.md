@@ -1,6 +1,6 @@
 # Operation Sonora Water — Find Ultron
 
-Ultron has hidden his physical body in **one of 196 fictional water stations in Sonora, Mexico**. Investigate the network and identify its station ID. You must **write Python code** to process the datasets and apply the algorithms below; this is not a hand-calculation exercise.
+Ultron has hidden his physical body in **one of 196 fictional water stations in Sonora, Mexico**. Investigate the network and identify its station ID.
 
 ## Start
 
